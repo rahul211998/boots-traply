@@ -1,0 +1,195 @@
+.circlesection{
+    color: aquamarine;
+    height: 70px;
+    background-color: rgb(65, 149, 192);
+    width: 70px;
+    border-radius: 50%;
+}
+
+.navDiv{
+    background-color: rgba(224, 230, 232, 0.582);
+}
+
+
+@media (max-width: 576px) { 
+
+    .text-first {
+        padding-left: 20px;
+        text-align: center;
+      }
+    
+       /* .navDiv ul {
+        flex-direction: column; 
+        text-align: center;
+      }  */
+    
+      .navDiv .navbar-brand img {
+        height: 60px;
+       } 
+    
+      .sideLeft {
+        display: none; 
+      }
+    
+      .my-class {
+        padding: 40px;
+      }
+    
+      .headerNumsMail, .navDiv {
+        font-size: 0.9rem;
+      }
+
+    .mainOne{
+        width:fit-content;
+        font-size: large;
+    }
+
+    .boss{
+        bottom: 10px;
+        position: relative;
+    }
+
+    .boss .tstt{
+        /* bottom: 10px; */
+        padding: 30px;
+        position: absolute;
+        top: -170px;
+        background-color: aliceblue;
+        text-align: center;
+    }
+
+    .whycoose section{
+        border: 1px rgba(0, 0, 0, 0.08) solid;
+        text-align: center;
+        padding-top: 10px;
+        background-color: rgba(134, 155, 158, 0);
+    }
+
+    .navHeader{
+        height:fit-content;
+    }
+
+    .headerNumsMail{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .dotss{
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    .g-box{
+        font-size: small;
+        overflow:auto;
+    }
+
+    .g-parent img{
+        width: 100vw;
+    }
+
+    .sideLeft{
+        color: aqua;
+    }
+
+    /* .photomale .imgmale{
+        max-width: 100vw;
+        height: auto;
+    } */
+
+  }
+
+  @media (min-width: 576px) and (max-width: 768px) { 
+
+    .mainOne{
+        width:fit-content;
+    }
+
+    .navHeader{
+        height:fit-content;
+    } 
+
+
+    .boss{
+        bottom: 10px;
+        position: relative;
+    }
+
+    .boss .tstt{
+        bottom: -300px;
+        padding: 50px;
+        position: absolute;
+        background-color: aliceblue;
+        text-align: center;
+    }
+
+    .whycoose section{
+        border: 1px rgba(0, 0, 0, 0.08) solid;
+        text-align: center;
+        padding-top: 10px;
+        background-color: rgba(134, 155, 158, 0);
+    }
+
+    .dotss{
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    .g-box{
+        font-size: small;
+        overflow:auto;
+    }
+
+    .sideLeft{
+        color: aqua;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) { 
+    .mainOne{
+        width:fit-content;
+    }
+    .boss{
+        bottom: 10px;
+        position: relative;
+    }
+
+    .boss .tstt{
+        bottom: -460px;
+        padding: 50px;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        /* border-radius: 0%; */
+        /* border:1 solid black; */
+    }
+
+
+    .dotss{
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    @media (min-width: 1290px){
+        .mainOne{
+            width:fit-content;
+        }
+        .boss{
+            bottom: 10px;
+            position: relative;
+        }
+    
+        .boss .tstt{
+            bottom: -500px;
+            padding: 50px;
+            position: absolute;
+            background-color: aliceblue;
+            text-align: center;
+        }
+        
+    }
+
+  }
+
+
+
