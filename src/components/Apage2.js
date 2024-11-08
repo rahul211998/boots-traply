@@ -230,7 +230,7 @@ const Apage2 = () => {
   </div>
 
 
-  <div className="ms-auto p-4 bg-white shadow-lg border position-relative" 
+  <div className="ms-auto p-4 bg-white shadow-lg border position-relative maid-img" 
        style={{ zIndex: 2, width: '55vw', minHeight: '70vh', marginBottom: '-10vh',marginTop:'50px'}}>
 
     <section className="mb-5">
