@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/boots-traply/static/css/main.089e1c14.css",
+    "main.js": "/boots-traply/static/js/main.b055180b.js",
+    "static/js/453.7d684139.chunk.js": "/boots-traply/static/js/453.7d684139.chunk.js",
+    "index.html": "/boots-traply/index.html",
+    "main.089e1c14.css.map": "/boots-traply/static/css/main.089e1c14.css.map",
+    "main.b055180b.js.map": "/boots-traply/static/js/main.b055180b.js.map",
+    "453.7d684139.chunk.js.map": "/boots-traply/static/js/453.7d684139.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.089e1c14.css",
+    "static/js/main.b055180b.js"
+  ]
+}
